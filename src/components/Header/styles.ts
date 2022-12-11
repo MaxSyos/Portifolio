@@ -22,12 +22,16 @@ export const Container = styled.header`
 
 export const NavLinkContainer = styled.li<NavLinkProps>`
   a {
-    text-transform: uppercase;
     color: ${props =>
       props.isActive ? props.theme.primary : props.theme.textHighlight};
     transition: 0.5s;
+    text-transform: ${props => 
+      props.isActive ? "uppercase" : "Capitalize" 
+    };
+    
 
     &:hover {
+      font-size: 0.9rem;
       color: ${props =>
         props.isActive
           ? lighten(0.2, props.theme.primary)

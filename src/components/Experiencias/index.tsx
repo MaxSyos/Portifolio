@@ -5,28 +5,18 @@ import { Container } from './styles';
 function Experiencias() {
   return (
     <Container>
-      <SectionTitle title="05 Anos" description="de experiência" />
+      <SectionTitle title="02 Years" description="Experience" />
 
       <section>
         <ExperienciaItem
-          year="2018"
-          title="Dev Front-end"
-          description="Lorem ipsum dolor sdsadas it amet, consectetur adipiscing elit. Aliquam"
-        />
-        <ExperienciaItem
           year="2021"
-          title="Dev Front-sasend"
+          title="Dev FrontEnd"
           description="Lorem ipsum sss dolor sit amet, consectetur adipiscing elit. Aliquam"
         />
         <ExperienciaItem
-          year="2021"
-          title="Dev Frondsa dsa t-end"
+          year="2022"
+          title="Dev FullStack"
           description="Lorem idsadas psum dolor sit amet, consectetur adipiscing elit. Aliquam"
-        />
-        <ExperienciaItem
-          year="2020"
-          title="Dev Front-end"
-          description="Lorem ipsumdsada  dolor sit amet, consectetur adipiscing elit. Aliquam"
         />
       </section>
     </Container>

@@ -8,7 +8,7 @@ import { Container } from './styles';
 function Conhecimentos() {
   return (
     <Container>
-      <SectionTitle title="Conhecimentos" />
+      <SectionTitle title="Skills" />
       <section>
         <ConhecimentoItem title="HTML" icon={<AiFillHtml5 />} />
         <ConhecimentoItem title="CSS" icon={<FaCss3Alt />} />

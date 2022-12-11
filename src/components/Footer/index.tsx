@@ -21,17 +21,17 @@ function Footer() {
     <Container>
       <div className="container">
         <button type="button" onClick={handleScrollTop}>
-          Voltar ao topo
+          Back to Top
         </button>
         <section>
           <AiOutlineTwitter
             onClick={() => handleRedirect('https://twitter.com')}
           />
           <AiOutlineGithub
-            onClick={() => handleRedirect('https://github.com')}
+            onClick={() => handleRedirect('https://github.com/MaxSyos')}
           />
           <AiFillLinkedin
-            onClick={() => handleRedirect('https://linkedin.com')}
+            onClick={() => handleRedirect('https://www.linkedin.com/in/andr%C3%A9-abreu-de-s%C3%A1-b17908117/')}
           />
         </section>
       </div>

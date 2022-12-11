@@ -70,9 +70,11 @@ export const getStaticProps: GetStaticProps = async () => {
   const prismic = getPrismicClient();
 
   const projectResponse = await prismic.query(
-    [Prismic.Predicates.at('document.type', 'pro')],
+    [Prismic.Predicates.at('document.type', 'projeto')],
     { orderings: '[document.first_publication_date desc]' }
   );
+
+  console.log(projectResponse);
 
   const projetos = projectResponse.results.map(projeto => ({
     slug: projeto.uid,

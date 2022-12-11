@@ -8,16 +8,16 @@ function FormContato() {
       <SectionTitle
         title={
           <>
-            Precisa dos
+            Do you need
             <br />
-            meus serviços?
+            my services?
           </>
         }
         description={
           <>
-            Preencha o formulário abaixo que
+            Fill out the form below and
             <br />
-            irei retornar em breve
+            I will get back to you shortly.
           </>
         }
       />

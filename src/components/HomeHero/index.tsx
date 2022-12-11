@@ -1,35 +1,37 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/pessoa.webp';
+import { Container, Image1, Image2, TextContainer, InfosContainer, CodeItem } from './styles';
+import picture from '../../assets/Imagem_1.png';
+import photo from '../../assets/desenho2.png'
 
 function HomeHero() {
   return (
     <Container data-aos="fade-up">
-      <img src={picture} alt="Minha foto" />
+      <Image1 src={picture} alt="Minha foto" />
+      <Image2 src={photo} alt="Minha foto2" />
       <div>
         <TextContainer>
-          <h1>Olá</h1>
-          <h2>Me chamo Gabriel</h2>
+          <h1>Hello!</h1>
+          <h2>I am André</h2>
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">//Minha apresentação</span>
+            <span className="comment">//Window</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
-              Nome: <span className="blue">Gabriel,</span>
+              Name: <span className="blue">André</span>
             </div>
             <div>
-              Sobrenome: <span className="blue">Borges</span>
+              Last name: <span className="blue">Abreu de Sá</span>
             </div>
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">Cargo</span> {'\u007B'}
+            <span className="purple">Employ</span> {'\u007B'}
             <div>
-              Função: <span className="blue">Dev Front-end,</span>
+              Function: <span className="blue">Developer</span>
             </div>
             <div>
-              Empresa: <span className="blue">Cidade Alta</span>
+              Type: <span className="blue">FrontEnd</span>
             </div>
             {'\u007D'}
           </CodeItem>

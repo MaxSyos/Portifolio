@@ -34,12 +34,24 @@ export const Container = styled.section`
   }
 
   @media (max-width: 700px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     > div {
       width: 100%;
     }
   }
 `;
+
+export const Image1 = styled.img`
+  @media (max-width: 700px) {
+    display: none;
+  }
+`
+export const Image2 = styled.img`
+  @media (min-width: 701px) {
+    display: none;
+  }
+`
+
 
 export const TextContainer = styled.section`
   margin-bottom: 2rem;
