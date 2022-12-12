@@ -4,7 +4,7 @@ export const Container = styled.section`
   width: 100%;
 
   > section {
-    margin-top: 8rem;
+    margin-top: 5rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -38,8 +38,8 @@ export const ConhecimentoContainer = styled.div`
   }
 
   svg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
     color: ${({ theme }) => theme.secondary};
     transition: 0.3s;
   }
