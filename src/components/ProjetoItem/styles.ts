@@ -23,6 +23,7 @@ export const Container = styled.div<ContainerProps>`
 
     &:hover {
       border-color: ${({ theme }) => theme.primary};
+      transform: scale(1.1);
 
       > div.overlay {
         opacity: 0.5;

@@ -70,7 +70,7 @@ export default function Form() {
         onChange={({ target }) => setMensagem(target.value)}
       />
       <button type="submit" disabled={loading}>
-        ENVIAR
+        SEND
       </button>
     </FormContainer>
   );

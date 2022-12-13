@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.section``;
 
 export const FormContainer = styled.form`
-  margin-top: 8rem;
+  margin-top: 3rem;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;

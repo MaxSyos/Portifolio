@@ -92,6 +92,7 @@ export const InfosContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
 `;
 
 export const CodeItem = styled.pre`
@@ -103,6 +104,7 @@ export const CodeItem = styled.pre`
   width: 24rem;
   align-self: flex-start;
   transition: 1s !important;
+  
 
   @media (max-width: 1450px) {
     width: 18rem;
@@ -116,6 +118,9 @@ export const CodeItem = styled.pre`
 
   &:hover {
     filter: brightness(1.2);
+    &:hover{
+      transform: scale(0.95)
+    }
   }
 
   &:last-child {
