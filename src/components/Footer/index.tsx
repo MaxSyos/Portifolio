@@ -24,9 +24,6 @@ function Footer() {
           Back to Top
         </button>
         <section>
-          <AiOutlineTwitter
-            onClick={() => handleRedirect('https://twitter.com')}
-          />
           <AiOutlineGithub
             onClick={() => handleRedirect('https://github.com/MaxSyos')}
           />
