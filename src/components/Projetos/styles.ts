@@ -38,7 +38,7 @@ export const Container = styled.section`
       text-transform: uppercase;
       color: #fff;
       font-size: 1.5rem;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     @media (max-width: 500px) {
@@ -60,7 +60,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   &:hover {
     > section {
       > div.text {
-        right: -12rem;
+        right: -25rem;
       }
 
       > div.overlay {
@@ -82,7 +82,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     a {
       color: #fff;
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: 400;
       display: flex;
       align-items: center;
       gap: 0.8rem;
@@ -109,7 +109,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     > div.text {
       position: absolute;
       top: 3rem;
-      right: -10rem;
+      right: -12rem;
       transition: 0.5s;
       width: fit-content;
 
@@ -122,7 +122,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
       h2 {
         color: ${({ theme }) => theme.secondary};
         font-size: 2rem;
-        font-weight: 300;
+        font-weight: 400;
         text-shadow: -4px 5px 22px #11172b;
       }
     }
@@ -138,12 +138,12 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     > section > div.text {
       text-align: right;
       right: 0;
-      left: -10rem;
+      left: 12rem;
     }
 
     &:hover {
       > section > div.text {
-        left: -12rem;
+        left: -28rem;
       }
     }
   }

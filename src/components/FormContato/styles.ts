@@ -14,7 +14,7 @@ export const FormContainer = styled.form`
     border: none;
     padding: 1rem 2.5rem;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
     border-radius: 0.5rem;
     background: ${({ theme }) => theme.primary};

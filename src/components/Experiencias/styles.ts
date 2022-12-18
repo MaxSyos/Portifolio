@@ -55,7 +55,7 @@ export const ItemContainer = styled.div`
     p {
       color: ${({ theme }) => theme.textLight};
       font-size: 1rem;
-      line-height: 1.3rem;
+      line-height: 1.5rem;
       font-weight: 300;
     }
   }

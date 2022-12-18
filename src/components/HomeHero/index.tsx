@@ -18,20 +18,23 @@ function HomeHero() {
             <span className="comment">//Window</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
-              Name: <span className="blue">André</span>
+              Name: <span className="blue"> André</span>
             </div>
             <div>
-              Last name: <span className="blue">Abreu de Sá</span>
+              Last name: <span className="blue"> Abreu de Sá</span>
             </div>
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
             <span className="purple">Employ</span> {'\u007B'}
             <div>
-              Function: <span className="blue">Developer</span>
+              Function: <span className="blue"> Developer</span>
             </div>
             <div>
-              Type: <span className="blue">FrontEnd</span>
+              Type: <span className="blue"> Fullstack</span>
+            </div>
+            <div>
+              Location: <span className="blue"> Montes Claros, Brasil</span>
             </div>
             {'\u007D'}
           </CodeItem>

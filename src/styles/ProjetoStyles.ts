@@ -36,7 +36,7 @@ export const ProjetoContainer = styled.div`
         color: #fff;
         text-transform: uppercase;
         font-size: 1.5rem;
-        font-weight: 300;
+        font-weight: 400;
       }
     }
 
