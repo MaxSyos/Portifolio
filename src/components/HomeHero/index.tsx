@@ -18,7 +18,7 @@ function HomeHero() {
               loop={Infinity}
               steps={[
                 'I am André',
-                4000,
+                2500,
                 'know me a little more',
                 3000
               ]}
