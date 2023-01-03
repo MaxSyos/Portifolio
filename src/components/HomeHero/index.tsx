@@ -2,6 +2,7 @@
 import { Container, Image1, Image2, TextContainer, InfosContainer, CodeItem } from './styles';
 import picture from '../../assets/Imagem_1.png';
 import photo from '../../assets/desenho2.png'
+import Typical from 'react-typical'
 
 function HomeHero() {
   return (
@@ -11,11 +12,22 @@ function HomeHero() {
       <div>
         <TextContainer>
           <h1>Hello!</h1>
-          <h2>I am André</h2>
+          <h2>
+            {''}
+            <Typical
+              loop={Infinity}
+              steps={[
+                'I am André',
+                4000,
+                'know me a little more',
+                3000
+              ]}
+            />
+          </h2>
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">//Window</span>
+            <span className="comment">//About me</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
               Name: <span className="blue"> André</span>
