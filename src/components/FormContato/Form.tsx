@@ -17,7 +17,7 @@ export default function Form() {
     if (loading) return;
 
     if (!nome.trim() || !email.trim() || !mensagem.trim()) {
-      toast('Preencha todos os campos para enviar sua mensagem!', {
+      toast('Fill in all fields to send your message!', {
         style: {
           background: theme.error,
           color: '#fff'
@@ -33,14 +33,14 @@ export default function Form() {
       setEmail('');
       setMensagem('');
 
-      toast('Mensagem enviada com sucesso!', {
+      toast('Message sent successfully!', {
         style: {
           background: theme.secondary,
           color: '#fff'
         }
       });
     } catch (error) {
-      toast('Ocorreu um erro ao tentar enviar sua mensagem. Tente novamente!', {
+      toast('An error occurred while trying to send your message. Try again!', {
         style: {
           background: theme.error,
           color: '#fff'
