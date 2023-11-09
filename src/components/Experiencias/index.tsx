@@ -5,7 +5,7 @@ import { Container } from './styles';
 function Experiencias() {
   return (
     <Container>
-      <SectionTitle title="02 Years" description="Experience" />
+      <SectionTitle title="04 Years" description="Experience" />
 
       <section>
         <ExperienciaItem
@@ -19,10 +19,17 @@ function Experiencias() {
         <ExperienciaItem
           year="2022"
           title="Dev FullStack"
-          description="As a FullStack I had experiences in PERN production, REST API integration 
+          description="As a FullStack I had experiences in PERN and MERN production, REST API integration 
           with FrontEnd, CRUD operations, use of node.js , express, Docker, postgress and prismic 
           database, ORM Prisma, libraries as fastify, axios, socket.io, jsonwebtoken, bcrypt and 
           studies in SOLID architecture, use of Github and Gitpod development tools."
+        />
+        <ExperienciaItem
+          year="2023"
+          title="Dev Mobile"
+          description="As a mobile developer I integrated with Rest's API using
+          React Native for app production, Expo and working with styling libraries like Nativewind, 
+          styled-components and others. Also using virtual workspaces in tunnel."
         />
       </section>
     </Container>
