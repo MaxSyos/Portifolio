@@ -12,16 +12,14 @@ function Experiencias() {
           year="2021"
           title="Dev FrontEnd"
           description="I started my experiences as FrontEnd exploring the development of projects 
-          from scratch, styling, componentization, SSG, SSR, consumption of REST APIs, libraries and 
-          various frameworks as React.js, Next.js, Vite, Redux, JavaScript, TypeScript, Styled Components, 
-          Tailwind, Material UI, Chakra UI, among others."
+          from scratch, styling, componentization, consumption of REST APIs, HTML, CSS, JavaScript, TypeScript,
+          libraries and various frameworks, having with react.js main stack."
         />
         <ExperienciaItem
           year="2022"
           title="Dev FullStack"
-          description="As a FullStack I had experiences in PERN and MERN production, REST API integration 
-          with FrontEnd, CRUD operations, use of node.js , express, Docker, postgress and prismic 
-          database, ORM Prisma, libraries as fastify, axios, socket.io, jsonwebtoken, bcrypt and 
+          description="As a FullStack I had experiences in PERN and MERN production, REST API productions and 
+          integration with FrontEnd, CRUD operations, use of Node.js, Express, Docker, ORM's, DataBases and CMS,
           studies in SOLID architecture, use of Github and Gitpod development tools."
         />
         <ExperienciaItem
